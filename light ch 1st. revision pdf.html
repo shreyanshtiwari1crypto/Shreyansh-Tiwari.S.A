@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chapter 1 – Light (Reflection & Refraction)</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <style>
+    body { font-family: 'Arial', sans-serif; margin: 40px; color: #222; line-height: 1.6; }
+    h1, h2 { color: darkblue; }
+    .credit { text-align: right; font-style: italic; margin-bottom: 20px; }
+    .notes { background: #f7f7f7; padding: 15px; border-left: 4px solid #4682b4; margin: 20px 0; }
+    .exercise { margin: 20px 0; }
+    .question { margin: 10px 0; }
+    .answer { margin-left: 20px; color: #333; }
+    .btn { padding: 10px 15px; font-size: 16px; background: #4CAF50; color: white; border: none; border-radius: 4px; cursor: pointer; }
+    .btn:hover { background: #45a049; }
+  </style>
+</head>
+<body>
+
+  <div class="credit">Made by Shreyansh Tiwari</div>
+  <h1>Chapter 1: Light – Reflection and Refraction</h1>
+
+  <div class="notes">
+    <h2>Concept Notes</h2>
+    <p><strong>• Light:</strong> Electromagnetic energy that enables vision. Travels in straight lines in a homogeneous medium :contentReference[oaicite:5]{index=5}.</p>
+    <p><strong>• Laws of Reflection:</strong> (1) Angle of incidence = angle of reflection; (2) Incident ray, normal, and reflected ray lie in the same plane :contentReference[oaicite:6]{index=6}.</p>
+    <p><strong>• Refraction and Refractive Index:</strong> Bending of light at boundary between media; refractive index = speed of light in air / speed in medium :contentReference[oaicite:7]{index=7}.</p>
+    <p><strong>• Mirrors and Lenses:</strong> Spherical mirrors (concave and convex), lenses; focal length f = R/2 ; power = 1/f (in meters) :contentReference[oaicite:8]{index=8}.</p>
+  </div>
+
+  <div class="exercise">
+    <h2>Exercise 10.1 (NCERT In-text Questions)</h2>
+    <div class="question"><strong>Q1.</strong> Define the principal focus of a concave mirror.</div>
+    <div class="answer">Light rays parallel to the principal axis converge at a point on the axis after reflection – the principal focus :contentReference[oaicite:9]{index=9}.</div>
+
+    <div class="question"><strong>Q2.</strong> The radius of curvature of a spherical mirror is 20 cm. What is its focal length?</div>
+    <div class="answer">f = R/2 = 20 cm / 2 = 10 cm :contentReference[oaicite:10]{index=10}.</div>
+
+    <div class="question"><strong>Q3.</strong> Name a mirror which gives an erect and enlarged image of an object.</div>
+    <div class="answer">A concave mirror (when object is between pole and focus) gives a virtual, erect, enlarged image :contentReference[oaicite:11]{index=11}.</div>
+
+    <div class="question"><strong>Q4.</strong> Why is a convex mirror preferred as a rear‑view mirror?</div>
+    <div class="answer">It gives an erect, diminished, virtual image with a wide field of view :contentReference[oaicite:12]{index=12}.</div>
+  </div>
+
+  <div class="exercise">
+    <h2>Exercise 10.2 (NCERT End-of-Chapter)</h2>
+    <div class="question"><strong>Q1.</strong> Focal length of a convex mirror whose radius is 32 cm?</div>
+    <div class="answer">f = R/2 = 32 cm / 2 = 16 cm :contentReference[oaicite:13]{index=13}.</div>
+
+    <div class="question"><strong>Q2.</strong> A concave mirror produces 3× magnified real image of an object placed at 10 cm in front. Where is the image?</div>
+    <div class="answer">Magnification = v/u; here v = 3 × (−10 cm) = −30 cm; image is real and 30 cm in front of mirror :contentReference[oaicite:14]{index=14}.</div>
+  </div>
+
+  <button class="btn" onclick="downloadPDF()">Download PDF</button>
+
+  <script>
+    function downloadPDF() {
+      const element = document.body;
+      html2pdf().from(element).save("Light_Ch1_by_Shreyansh_Tiwari.pdf");
+    }
+  </script>
+
+</body>
+</html>
